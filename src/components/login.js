@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 
-export default class Login extends Component {
-    render() {
+function Login(){
         return (
             <form>
 
@@ -30,5 +29,6 @@ export default class Login extends Component {
                 </p>
             </form>
         );
-    }
+    
 }
+export default Login;
